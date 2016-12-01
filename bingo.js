@@ -25,7 +25,7 @@ var spaces = [
 			'Geoff in the crowd',
 			'Geoff gets Real',
 			'Naked Norman Reedus',
-			'Premiere already known',
+			'Non-Premiere Premiere',
 			'DLC Trailer',
 			'Technical Difficulties',
 			'Someone Vapes',
@@ -51,7 +51,12 @@ var spaces = [
 			'Star Wars',
 			'Baps',
 			'Anime',
-			'Empty Seats'
+			'Empty Seats',
+			'Borderlands',
+			'FROM Software',
+			'Trailer for released game',
+			'Pyrotechnics'
+
 
 
 			
