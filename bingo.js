@@ -45,6 +45,10 @@ var spaces = [
 			'tweets read aloud',
 			'youtuber nodody knows',
 			'Jeff shows up in discord',
+			'Doom SP DLC',
+			'Valve/Gaben',
+			'Here\'s Marvel',
+			
 			
 
 		];
