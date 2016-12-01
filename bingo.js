@@ -103,6 +103,7 @@ function newCard() {
 	}
 	if (usedSpaces.length >= totalSpaces) {
 		var randSpaces = getShuffled(usedSpaces);
+		var free = 'FREE SPACE';
 		document.getElementById("grid").innerHTML = ""
 		for (r = 1; r <= document.getElementById('height').value; r++) {
 			var row = document.createElement('div');
@@ -113,13 +114,17 @@ function newCard() {
 				var spaceText = document.createElement('div');
 				spaceText.setAttribute("class", "cell-text");
 				var spaceTextNode = document.createTextNode(randSpaces[(c - 1) + (r * document.getElementById('width').value) - document.getElementById('width').value]);
+				if (c==3 && r == 3) {
+					spaceText.appendChild(free);
+				} else {
 				spaceText.appendChild(spaceTextNode);
+				}
 				var spaceTextContainer = document.createElement('div');
 				spaceTextContainer.setAttribute("class", "cell-text-container");
 				spaceTextContainer.appendChild(spaceText);
 				space.appendChild(spaceTextContainer);
 				space.setAttribute("class", "cell");
-				row.appendChild(space+'bob');
+				row.appendChild(space);
 			}
 		}
 		$(".cell").click(function () {
