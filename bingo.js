@@ -43,7 +43,7 @@ var spaces = [
 			'Another telltale series',
 			'video game dog',
 			'Tweets read aloud',
-			'Youtuber nodody knows',
+			'Youtuber nobody knows',
 			'Jeff shows up in discord',
 			'Doom SP DLC',
 			'Valve/Gaben',
