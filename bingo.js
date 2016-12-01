@@ -115,7 +115,8 @@ function newCard() {
 				spaceText.setAttribute("class", "cell-text");
 				var spaceTextNode = document.createTextNode(randSpaces[(c - 1) + (r * document.getElementById('width').value) - document.getElementById('width').value]);
 				if (c==3 && r == 3) {
-					spaceText.appendChild(free);
+					var freeTextNode = document.createTextNode(free)
+					spaceText.appendChild(freeTextNode);
 				} else {
 				spaceText.appendChild(spaceTextNode);
 				}
