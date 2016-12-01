@@ -33,8 +33,19 @@ var spaces = [
 			'Live music nobody wanted',
 			'Danny wins!',
 			'No Man\'s Sky mention',
-			'test1',
-			'test2'
+			'Cosplayer',
+			'Live Demo',
+			'VR Game reveal',
+			'Offstage Mic',
+			'Geoff wears too many layers',
+			'Reggie reveals nothing',
+			'Zombie game',
+			'Another telltale series',
+			'video game dog',
+			'tweets read aloud',
+			'youtuber nodody knows',
+			'Jeff shows up in discord',
+			
 
 		];
 function createSpaceMenu() {
