@@ -42,13 +42,18 @@ var spaces = [
 			'Zombie game',
 			'Another telltale series',
 			'video game dog',
-			'tweets read aloud',
-			'youtuber nodody knows',
+			'Tweets read aloud',
+			'Youtuber nodody knows',
 			'Jeff shows up in discord',
 			'Doom SP DLC',
 			'Valve/Gaben',
 			'Here\'s Marvel',
-			
+			'Star Wars',
+			'Baps',
+			'Anime',
+			'Empty Seats'
+
+
 			
 
 		];
