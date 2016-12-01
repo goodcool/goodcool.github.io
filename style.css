@@ -124,7 +124,7 @@ button:focus {
 		hyphens:auto;
 }
 #item-chooser {
-	max-width:500px;
+	max-width:0px;
 	text-align:left;
 	margin-left:auto;
 	margin-right:auto;
