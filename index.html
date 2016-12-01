@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:image" content="thumb.png">
+	<title>TF2 Bingo</title>
+	<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.4/flatly/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+	<script src="checked-list-group.js"></script>
+	<script src="printThis.js"></script>
+	<script src="bingo.js"></script>
+</head>
+<body onload="bingoInit()">
+	<div class="container">
+		<p class="header">TF2 Bingo</p>
+		<p class="lead">A randomized Team Fortress 2 bingo card generator</p>
+		<div id="grid-container">
+			<div id="grid">
+			</div>
+		</div>
+		<div id="wh-container">
+			<div class="wh-dial"><div>Width:</div>
+				<input id="width" class="form-control size-control" type="number" value=5 />
+			</div>
+			<div class="wh-dial"><div>Height:</div>
+				<input id="height" class="form-control size-control" type="number" value=5 />
+			</div>
+		</div>
+			<div class="btn-group-vertical">
+				<div class="btn btn-success" onclick="newCard()">New Bingo Card</div>
+				<div class="btn btn-success" onclick="printCard()">Print Card</div>
+			</div>
+		<div class="well" id="item-chooser">
+			<div>Customize:</div>
+			<ul class="list-group checked-list-box btn-group-vertical" id="space-chooser">
+			</ul>
+		</div>
+		<p id="display-json"></p>
+	</div>
+	<footer><span>Made by <a href="../about-me/">darkness3560</a> with <a href="http://getbootstrap.com/">Bootstrap</a> and <a href="https://github.com/jasonday/printThis">printThis</a></span></footer>
+</body>
+</html>
