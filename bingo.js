@@ -119,7 +119,7 @@ function newCard() {
 				spaceTextContainer.appendChild(spaceText);
 				space.appendChild(spaceTextContainer);
 				space.setAttribute("class", "cell");
-				row.appendChild(space);
+				row.appendChild(space+'bob');
 			}
 		}
 		$(".cell").click(function () {
